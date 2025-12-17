@@ -1,6 +1,3 @@
--- ts file was generated at discord.gg/25ms
-
-
 local vu1 = not request and (not (http_request or http and http.request) and syn)
 if vu1 then
     vu1 = syn.request
