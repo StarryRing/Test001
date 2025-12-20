@@ -37,8 +37,8 @@ Library.NotifySide = "Right"
 
 local Window = Library:CreateWindow({
 	Title = "MR-S | Forsaken",
-	Footer = "by MR-S",
-	Icon = 95816097006870,
+	Footer = "MR-S ‖ http://qins.mc.hi.cn/MR-S",
+	Icon = 82123142883369,
 	NotifySide = "Right",
 	ShowCustomCursor = true,
 })
@@ -68,7 +68,7 @@ new:AddLabel("[+]Forsaken项目修复")
 new:AddLabel("[+]修复大部分功能")
 new:AddLabel("[+]新增反效果漏洞")
 
-local new = Tabs.new:AddLeftGroupbox('和谐')
+local new = Tabs.new:AddLeftGroupbox('修复')
 
 new:AddLabel("by MR-S团队")
 new:AddLabel("修复7月份废弃项目")
