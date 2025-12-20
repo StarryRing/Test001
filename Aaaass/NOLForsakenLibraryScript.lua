@@ -1,4 +1,4 @@
--- by TheHunterSolo1
+-- by MR-S
 local Sound = Instance.new("Sound")
       Sound.SoundId = "rbxassetid://4590657391"
       Sound.Parent = game:GetService("SoundService")
@@ -36,8 +36,8 @@ Library.ShowCustomCursor = true
 Library.NotifySide = "Right"
 
 local Window = Library:CreateWindow({
-	Title = "NOL｜Forsaken",
-	Footer = "by TheHunterSolo1",
+	Title = "MR-S | Forsaken",
+	Footer = "by MR-S",
 	Icon = 95816097006870,
 	NotifySide = "Right",
 	ShowCustomCursor = true,
@@ -64,17 +64,17 @@ local _hrp = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
 
 local new = Tabs.new:AddLeftGroupbox('公告')
 
-new:AddLabel("[+]NOL 中国最强Forsaken脚本")
+new:AddLabel("[+]Forsaken项目修复")
 new:AddLabel("[+]修复大部分功能")
 new:AddLabel("[+]新增反效果漏洞")
 
 local new = Tabs.new:AddLeftGroupbox('和谐')
 
-new:AddLabel("作者 TheHunterSolo1")
-new:AddLabel("成功修复了7月份废弃源")
-new:AddLabel("尊敬的NOL用户 我们已对7月份终极废弃源码进行修复")
-new:AddLabel("请赞赏我们工社区")
-new:AddLabel("NOL7月份修复源 -- 工社区")
+new:AddLabel("by MR-S团队")
+new:AddLabel("修复7月份废弃项目")
+new:AddLabel("完全修复")
+new:AddLabel("修复时间12月20号")
+new:AddLabel("7月份修复源 -- MR-S")
 
 
 
