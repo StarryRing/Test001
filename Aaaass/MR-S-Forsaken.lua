@@ -38,7 +38,7 @@ Library.NotifySide = "Right"
 local Window = Library:CreateWindow({
 	Title = "MR-S | Forsaken",
 	Footer = "MR-S ‖ http://qins.mc.hi.cn/MR-S",
-	Icon = 82123142883369,
+	Icon = 91952618996183,
 	NotifySide = "Right",
 	ShowCustomCursor = true,
 })
