@@ -74,7 +74,7 @@ function createUI()
         Title = 'MR-S 战争大亨',
         Icon = "rbxassetid://95828101007163",
         IconThemed = true,
-        Author = "v1",
+        Author = "by:MR-S team",
         Folder = "CloudHub",
         Size = UDim2.fromOffset(580, 440),
         Transparent = true,
@@ -88,7 +88,7 @@ function createUI()
             Enabled = true,
             Callback = function()
                 WindUI:Notify({
-                    Title = "点击了自己",
+                    Title = "认准下方唯一官网",
                     Content = "官网: http://qins.mc.hi.cn/MR-S", 
                     Duration = 7,
                     Icon = "4483362748"
