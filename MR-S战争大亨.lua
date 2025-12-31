@@ -3084,7 +3084,7 @@ I:Toggle({
 })
 
 I:Toggle({
-    Title = "无"
+    Title = "无",
     Value = false,
     Callback = function(state)
         getgenv().AutoBuy = state
