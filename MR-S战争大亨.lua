@@ -31,7 +31,7 @@ end
 WindUI:Popup({
     Title = '<font color="' .. gradientColors[1] .. '">M</font><font color="' .. gradientColors[5] .. '">R-S</font>',
     IconThemed = true,
-    Content = "尊敬的用户 " .. coloredUsername .. " \n您使用的 <font color='" .. gradientColors[1] .. "'>M</font><font color='" .. gradientColors[5] .. "'>R-S</font> 当前版本型号是: " .. coloredVersion .. "\n官网:http://qins.mc.hi.cn/MR-S￼",
+    Content = "尊敬的用户 " .. coloredUsername .. " \n您使用的 <font color='" .. gradientColors[1] .. "'>M</font><font color='" .. gradientColors[5] .. "'>R-S</font> 当前版本型号是: " .. coloredVersion .. "\n官网:http://qins.mc.hi.cn/MR-S",
     Buttons = {
         {
             Title = "取消",
@@ -52,7 +52,7 @@ WindUI:Popup({
 
 function createUI()
     local Window = WindUI:CreateWindow({
-        Title = 'MR-S 战争大亨￼',
+        Title = 'MR-S 战争大亨',
         Icon = "heart",
         IconThemed = true,
         Author = "v1",
@@ -70,7 +70,7 @@ function createUI()
             Callback = function()
                 WindUI:Notify({
                     Title = "点击了自己",
-                    Content = "官网: http://qins.mc.hi.cn/MR-S ￼", 
+                    Content = "官网: http://qins.mc.hi.cn/MR-S", 
                     Duration = 7,
                     Icon = "4483362748"
                 })
@@ -116,7 +116,7 @@ Window:Tag({
 
 Window:EditOpenButton({
     Title = "MR-S",
-    Icon = "heart",
+    Icon = "rbxassetid://95828101007163",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 4,
     Color = ColorSequence.new(Color3.fromHex("FF6B6B")),
@@ -2925,7 +2925,7 @@ local rs = game:GetService("ReplicatedStorage")
 local lp = ps.LocalPlayer
 
 I:Toggle({
-    Title = "自动箱子（废在修）",
+    Title = "无",
     Value = false,
     Callback = function(state)
         getgenv().AutoFarm = state
@@ -3084,7 +3084,7 @@ I:Toggle({
 })
 
 I:Toggle({
-    Title = "自动建造（废在修）",
+    Title = "无"
     Value = false,
     Callback = function(state)
         getgenv().AutoBuy = state
