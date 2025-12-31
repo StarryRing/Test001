@@ -1,3 +1,22 @@
+-- CN
+-- 制作团队MR-S
+-- 官网:http://qins.mc.hi.cn/MR-S
+-- 如果你看到这句话，说明你是通过已加密混淆的脚本进行破解了
+-- 我们不反对破解，但如果要将这脚本的部分内容/完整内容/成品 或单独进行修改文字发布/添加，请备注来源/说明来源！
+-- 不备注来源/说明来源 死全家，霸占别人劳动成果，死全家!
+-- 最后：请一定要尊重他人劳动成果,标明来源，谢谢！
+-- 以上为重要说明!!!!!!!不看死全家!!!!!!!!!!!
+
+-- EN
+-- Production Team: MR-S
+-- Official Website: http://qins.mc.hi.cn/MR-S
+-- If you see this message, it means you have cracked an encrypted/obfuscated script.
+-- We do not oppose cracking, but if you plan to modify/release partial/full content, standalone modified versions, or derivative works based on this script, you must credit the source/clearly state the origin!
+-- Failure to credit/state the source → death to the entire family. Stealing others' work → death to the entire family!
+-- Finally: Please always respect others' work and credit the source. Thank you!
+-- The above is an important notice!!!!!!! Ignoring it → death to the entire family!!!!!!!!!!!
+
+
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/dist/main.lua"))()
 local Confirmed = false
 
@@ -53,7 +72,7 @@ WindUI:Popup({
 function createUI()
     local Window = WindUI:CreateWindow({
         Title = 'MR-S 战争大亨',
-        Icon = "heart",
+        Icon = "rbxassetid://95828101007163",
         IconThemed = true,
         Author = "v1",
         Folder = "CloudHub",
@@ -115,7 +134,7 @@ Window:Tag({
     })
 
 Window:EditOpenButton({
-    Title = "MR-S",
+    Title = "MR-S 战争大亨",
     Icon = "rbxassetid://95828101007163",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 4,
@@ -174,7 +193,7 @@ infoSection:Divider()
 
 infoSection:Paragraph({
     Title = "关于MR-S",
-    Desc = "官方网址:http://qins.mc.hi.cn/MR-S￼",
+    Desc = "官方网址:http://qins.mc.hi.cn/MR-S",
     ThumbnailSize = 190,
 })
 
@@ -184,7 +203,7 @@ infoSection:Divider()
 
 infoSection:Paragraph({
     Title = "2026-1-1",
-    Desc = "免费版v1￼",
+    Desc = "免费版v1",
     ThumbnailSize = 190,
 })
 
@@ -3847,3 +3866,7 @@ WindUI:Notify({
 end
 refreshAttackPlayerList()
 
+print("✔MR-S 战争大亨v1 加载!")
+print("☠️MR-S 官网: http://qins.mc.hi.cn/MR-S")
+print("✅MR-S 已绕过反作弊")
+print("❗警告: 禁止圈钱倒卖行为,请勿上当受骗,发现请及时联系我们!")
